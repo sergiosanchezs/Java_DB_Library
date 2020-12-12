@@ -1,0 +1,65 @@
+[
+{"type":"header","version":"5.0.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"library"},
+{"type":"table","name":"books","database":"library","data":
+[
+{"isbn":"100","title":"Algorithms","author":"Robert Sedgewick","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"101","title":"The Self-Taught Programmer","author":"Cory Althoff","status":"0","publisher":"Self-Taught Media"},
+{"isbn":"102","title":"Rapid Development","author":"Steve McConnell","status":"0","publisher":"McConnell's"},
+{"isbn":"103","title":"Coders at work","author":"Peter Seibel","status":"0","publisher":"Apress"},
+{"isbn":"104","title":"Domain-Driven Design","author":"Eric Evans","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"105","title":"The Art of Computer Programming","author":"Donald E. Knuth","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"106","title":"Structure and Interpretation of Computer Programs","author":"Harold Abelson","status":"0","publisher":"The MIT Press"},
+{"isbn":"107","title":"Patterns of Enterprise Application Architecture","author":"Martin Fowler","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"108","title":"Programming Pearls","author":"Jon Bentley","status":"1","publisher":"Addison-Wesley Professional"},
+{"isbn":"109","title":"Peopleware","author":"Tom DeMarco","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"110","title":"Introduction to Algorithms","author":"Thomas H. Cormen","status":"0","publisher":"The MIT Press"},
+{"isbn":"112","title":"Code","author":"Charles Petzold","status":"0","publisher":"Microsoft Press"},
+{"isbn":"113","title":"Don't Make Me Think","author":"Steve Krug","status":"0","publisher":"New Riders"},
+{"isbn":"114","title":"Soft Skills","author":"John Sonmez","status":"1","publisher":" Manning Publications"},
+{"isbn":"115","title":"Rework","author":"Jason Fried","status":"1","publisher":"Currency"},
+{"isbn":"116","title":"Cracking the Coding Interview","author":"Gayle Laakmann McDowell","status":"0","publisher":"CareerCup"},
+{"isbn":"117","title":"Design Patterns","author":"Erich Gamma","status":"1","publisher":"Addison-Wesley Professional"},
+{"isbn":"118","title":"Working Effectively with Legacy Code","author":"Michael Feathers","status":"0","publisher":"Prentice Hall"},
+{"isbn":"119","title":"The Clean Coder","author":"Robert Martin","status":"0","publisher":"Prentice Hall"},
+{"isbn":"120","title":"The Mythical Man-Month","author":"Frederick P. Brooks Jr","status":"1","publisher":"Addison-Wesley Professional"},
+{"isbn":"121","title":"Head First Design Patterns","author":"Eric Freeman","status":"0","publisher":"O'Reilly Media"},
+{"isbn":"122","title":"Refactoring","author":"Martin Fowler","status":"1","publisher":"Addison-Wesley Professional"},
+{"isbn":"123","title":"Code Complete","author":"Steve McConnell","status":"0","publisher":"Microsoft Press"},
+{"isbn":"124","title":"Clean Code","author":"Robert C. Martin","status":"0","publisher":"Prentice Hall"},
+{"isbn":"125","title":"The Pragmatic Programmer","author":"David Thomas","status":"0","publisher":"Addison-Wesley Professional"},
+{"isbn":"131","title":"Python For Dummies","author":"Aahz Maruch","status":"1","publisher":"John Wiley & Sons"}
+]
+}
+,{"type":"table","name":"borrowing","database":"library","data":
+[
+{"id":"3","username":"tsoriano","book_isbn":"100"},
+{"id":"5","username":"spereira","book_isbn":"107"},
+{"id":"6","username":"spereira","book_isbn":"123"},
+{"id":"7","username":"spereira","book_isbn":"121"},
+{"id":"8","username":"spereira","book_isbn":"106"},
+{"id":"9","username":"spereira","book_isbn":"101"},
+{"id":"10","username":"spereira","book_isbn":"102"},
+{"id":"11","username":"tsoriano","book_isbn":"104"},
+{"id":"12","username":"tsoriano","book_isbn":"112"},
+{"id":"13","username":"tsoriano","book_isbn":"113"},
+{"id":"14","username":"tsoriano","book_isbn":"118"},
+{"id":"15","username":"tsoriano","book_isbn":"124"},
+{"id":"16","username":"tsoriano","book_isbn":"116"},
+{"id":"17","username":"ssanchez","book_isbn":"105"},
+{"id":"18","username":"ssanchez","book_isbn":"110"},
+{"id":"19","username":"ssanchez","book_isbn":"109"},
+{"id":"25","username":"ssanchez","book_isbn":"119"},
+{"id":"27","username":"ssanchez","book_isbn":"125"},
+{"id":"28","username":"ssanchez","book_isbn":"103"}
+]
+}
+,{"type":"table","name":"users","database":"library","data":
+[
+{"username":"spereira","password":"abc123","first_name":"Sergio","last_name":"Pereira","address":"123 Ellesmere Rd"},
+{"username":"ss","password":"abc123","first_name":"Sergio","last_name":"Sanchez S.","address":"123 Ellesmere Rd"},
+{"username":"ssanchez","password":"abc123","first_name":"Sergio","last_name":"Sanchez","address":"123 Ellesmere Rd"},
+{"username":"tsoriano","password":"abc123","first_name":"Tiago","last_name":"Soriano","address":"123 Ellesmere Rd"}
+]
+}
+]
